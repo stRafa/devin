@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevIn.API", "src\DevIn.API\DevIn.API.csproj", "{B10A6F64-AC4B-44C0-A13D-5E2288AD98AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevIn.Data", "src\DevIn.Data\DevIn.Data.csproj", "{CD74581E-4D44-4F8F-93D5-D165159BB878}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevIn.Business", "src\DevIn.Business\DevIn.Business.csproj", "{1FC55A24-088C-4F64-AFC1-D590C4585798}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B10A6F64-AC4B-44C0-A13D-5E2288AD98AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B10A6F64-AC4B-44C0-A13D-5E2288AD98AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B10A6F64-AC4B-44C0-A13D-5E2288AD98AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B10A6F64-AC4B-44C0-A13D-5E2288AD98AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD74581E-4D44-4F8F-93D5-D165159BB878}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD74581E-4D44-4F8F-93D5-D165159BB878}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD74581E-4D44-4F8F-93D5-D165159BB878}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD74581E-4D44-4F8F-93D5-D165159BB878}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FC55A24-088C-4F64-AFC1-D590C4585798}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FC55A24-088C-4F64-AFC1-D590C4585798}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FC55A24-088C-4F64-AFC1-D590C4585798}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FC55A24-088C-4F64-AFC1-D590C4585798}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B10A6F64-AC4B-44C0-A13D-5E2288AD98AF} = {F4CE0EAC-5BAB-44A4-880A-46065230C22F}
+		{CD74581E-4D44-4F8F-93D5-D165159BB878} = {F4CE0EAC-5BAB-44A4-880A-46065230C22F}
+		{1FC55A24-088C-4F64-AFC1-D590C4585798} = {F4CE0EAC-5BAB-44A4-880A-46065230C22F}
+	EndGlobalSection
+EndGlobal
