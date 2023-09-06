@@ -1,0 +1,44 @@
+{
+    "posts": [
+        {
+            "id": 1,
+            "title": "Introduction to Python Programming",
+            "summary": "Learn the basics of Python programming.",
+            "slug": "introduction-to-python-programming",
+            "imageUrl": "https://mir-s3-cdn-cf.behance.net/project_modules/1400_opt_1/64ed33179141073.64f4b4f57a43e.jpg",
+            "createDate": "2023-09-06T10:00:00",
+            "lastUpdateDate": "2023-09-06T12:30:00",
+            "category": "Programming",
+            "author": "John Doe",
+            "tags": ["Python","Beginner"
+            ]
+          },
+          {
+            "id": 2,
+            "Title": "Web Development with JavaScript",
+            "Summary": "Exploring the world of web development using JavaScript.",
+            "Slug": "web-development-with-javascript",
+            "ImageUrl": "https://mir-s3-cdn-cf.behance.net/project_modules/max_3840/00bdc8169542431.64e8d8da80b7e.png",
+            "CreateDate": "2023-09-06T11:15:00",
+            "LastUpdateDate": "2023-09-06T13:45:00",
+            "Category": "Web Development",
+            "Author": "Jane Smith",
+            "Tags": ["JavaScript","Web Development"
+            ]
+          },
+          {
+            "id": 3,
+            "Title": "Getting Started with SQL Databases",
+            "Summary": "Learn the basics of SQL databases and data manipulation.",
+            "Slug": "getting-started-with-sql-databases",
+            "ImageUrl": "https://mir-s3-cdn-cf.behance.net/project_modules/max_3840/978fb1178241505.64e4bd0705190.jpg",
+            "CreateDate": "2023-09-06T09:30:00",
+            "LastUpdateDate": "2023-09-06T11:45:00",
+            "Category": "Database",
+            "Author": "Alice Johnson",
+            "Tags": ["SQL",
+                "Database"
+            ]
+          }
+    ]
+}
