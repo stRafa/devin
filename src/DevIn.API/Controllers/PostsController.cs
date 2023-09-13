@@ -1,21 +1,22 @@
 ﻿using DevIn.API.ViewModels.Post;
+using DevIn.Business.Interfaces;
 using DevIn.Data.Context;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
 namespace DevIn.API.Controllers
 {
-    [ApiController]
+    
     [Route("api/[controller]")]
-    public class PostsController : Controller
+    public class PostsController : MainController
     {
         private readonly IConfiguration _configuration;
         private readonly AppDbContext _ctx;
 
-        public PostsController(IConfiguration configuration, AppDbContext dbContext)
+        public PostsController(INotificator notificator, IUser appUser, IConfiguration configuration, AppDbContext ctx) : base(notificator, appUser)
         {
             _configuration = configuration;
-            _ctx = dbContext;
+            _ctx = ctx;
         }
 
         [HttpGet]
