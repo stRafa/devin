@@ -10,12 +10,17 @@ namespace DevIn.Data.Mappings
         {
             builder.HasKey(x => x.Id);
 
-            builder.Property(x => x.Summary)
-                .IsRequired(false);
-
-            builder.Property(x => x.LastUpdateDate)
+            builder.Property(x => x.Title)
                 .IsRequired()
-                .HasMaxLength(60);
+                .HasMaxLength(100);
+
+            builder.Property(x => x.Body)
+                .IsRequired()
+                .HasMaxLength(20000);
+
+            builder.Property(x => x.Summary)
+                .IsRequired()
+                .HasMaxLength(200);
 
             builder
                 .HasIndex(x => x.Slug, "IX_Post_Slug")

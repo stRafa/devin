@@ -1,0 +1,24 @@
+﻿:root {
+    --rose: #E8B4B8;
+    --white: #e6e6e7;
+    --coffee: #6d6b6b;
+    --gray: #282828;
+}
+.swagger-ui .topbar {
+    background-color: var(--rose)
+}
+.swagger-ui img {
+    content: url('/img/logo.png');
+}
+
+.swagger-ui .topbar .download-url-wrapper .select-label span {
+    color: var(--gray);
+}
+
+.swagger-ui .topbar .download-url-wrapper .select-label select {
+    border: 2px solid var(--gray);
+    background-color: var(--coffee);
+    color: var(--white);
+}
+
+
